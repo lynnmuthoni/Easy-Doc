@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.king.mymorningbasicapp.MainActivity">
+    <item
+        android:id="@+id/mItemSms"
+        android:orderInCategory="1"
+        android:title="@string/action_sms_text"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mItemCall"
+        android:orderInCategory="2"
+        android:title="@string/action_call_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mItemContactUs"
+        android:orderInCategory="3"
+        android:title="@string/action_contact_us_text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mItemLogout"
+        android:orderInCategory="4"
+        android:title="@string/action_logout_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mItemExitApp"
+        android:orderInCategory="5"
+        android:title="@string/action_exit_app_text"
+        app:showAsAction="always" />
+</menu>

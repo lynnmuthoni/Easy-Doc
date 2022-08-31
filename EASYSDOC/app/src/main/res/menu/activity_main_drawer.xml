@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/doctwo"
+            android:title="@string/menu_doctors" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/appointment"
+            android:title="@string/menu_appointments" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/hospital"
+            android:title="@string/menu_hospitals" />
+        <item
+            android:id="@+id/nav_ambulance"
+            android:icon="@drawable/ambulance"
+            android:title="@string/menu_hospitals" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logouttwo"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
